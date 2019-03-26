@@ -1,0 +1,45 @@
+body {
+    background-color: #fefefe;
+    color: rgb(36, 36, 36);
+    font-family: Avenir Next, serif;
+    padding: 20px;
+    font-size: larger;
+}
+
+img.delete {
+    width: 15px;
+    filter: invert(100%);
+    background-color: white;
+    position: relative;
+    top: 1px;
+}
+
+i {
+    color: rgb(36, 36, 36);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    margin-top: 10px;
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: rgba(0, 0, 0, 0.80);
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.button:hover, .button:active, .button:focus {
+    background-color: #e0e0e0;
+}
