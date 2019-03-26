@@ -28,4 +28,8 @@ public class FormationService {
     public Formation find(Integer id) {
         return this.iFormationDao.getOne(id);
     }
+
+    public List<Formation> search(String theme) {
+        return this.iFormationDao.findByThemeContaining(theme);
+    }
 }

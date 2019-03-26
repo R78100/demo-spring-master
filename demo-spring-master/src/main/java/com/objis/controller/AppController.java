@@ -63,4 +63,18 @@ public class AppController {
         this.formationService.save(formation);
         return "redirect:/index.html";
     }
+
+    @RequestMapping("/search")
+    public ModelAndView search() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("search");
+        return modelAndView;
+    }
+
+    @PostMapping(path = "/search")
+    public ModelAndView search(String theme) {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject("formationList", this.formationService.search(theme));
+        return modelAndView;
+    }
 }

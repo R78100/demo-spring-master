@@ -16,7 +16,8 @@
         <label for="theme">Formation :</label>
         <input placeholder="Thème" id="theme" name="theme" value="${formation.theme}">
     </div>
-    <button class="button" type="submit">Sauvegarder</button>
+    <a class="button" href="index.html">Retour</a>
+    <button class="button" type="submit">OK</button>
 </form>
 </body>
 </html>

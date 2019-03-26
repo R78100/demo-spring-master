@@ -23,5 +23,7 @@
     </c:forEach>
 </ul>
 <a class="button" href="form.html">Créer une formation</a>
+<br>
+<a class="button" href="search.html">Rechercher une formation</a>
 </body>
 </html>
